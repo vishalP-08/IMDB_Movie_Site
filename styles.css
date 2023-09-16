@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1750%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #242A32;
+  color: white;
+  text-align: center;
+  border: 1px solid #0296E5;
+  border-radius: 10px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(0deg, #0296E5, #0296E5),
+              linear-gradient(0deg, #242A32, #242A32);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  border: 1px solid #0296E5;
+  border-radius: 10px;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.input-container input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background: #3A3F47;
+  border: 1px solid #0296E5;
+  color: white;
+}
+
+.input-container button {
+  padding: 10px 40px;
+  font-size: 16px;
+  background: #0296E5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.input-container button:hover {
+  background: #037cc6;
+}
+
+#loader {
+  text-align: center;
+  display: none;
+  margin-bottom: 20px;
+}
+
+#moviesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie {
+  border: 1px solid #0296E5;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  background: #3A3F47;
+  color: white;
+  border-radius: 5px;
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/* New styles for the loader */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.spinner {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #0296E5; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
