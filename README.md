@@ -1,5 +1,5 @@
 <div align="center">
-  <h2 align="center">Weather-API - F3 Contest -1 Project</h2>
+  <h2 align="center">OMBD-API - F3 Contest -1 Project</h2>
 
  OMDB Movie Search Dashboard With Error Handling. Design an interactive movie search dashboard using the OMDB API.
 
